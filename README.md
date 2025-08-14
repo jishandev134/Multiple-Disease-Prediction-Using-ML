@@ -15,11 +15,11 @@ A web-based application for predicting **Diabetes** and **Heart Disease** using 
 
 ## Technologies Used
 
-- Python
-- Streamlit
-- scikit-learn (for ML models)
-- pickle (for saving/loading ML models)
-- streamlit-option-menu (for sidebar navigation)
+- **Python**
+- **Streamlit**
+- **scikit-learn (for ML models)**
+- **pickle (for saving/loading ML models)**
+- **streamlit-option-menu (for sidebar navigation)**
 
 ## 🖥️ Live Demo
 [🌐 Try it here](https://ml-disease-predict.streamlit.app/)
@@ -30,39 +30,44 @@ A web-based application for predicting **Diabetes** and **Heart Disease** using 
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-(Optional) Create a virtual environment:
-
-bash
-Copy
-Edit
+cd <your-repo> 
+```
+2. Create a Virtual Environment:
+```bash
 python -m venv myenv
 source myenv/bin/activate  # macOS/Linux
 myenv\Scripts\activate     # Windows
-Install required packages:
+```
 
-bash
-Copy
-Edit
+3. Install required packages:
+
+```bash
+
 pip install -r requirements.txt
-Run the app:
+```
 
-bash
-Copy
-Edit
+4. Run the app:
+
+```bash
+
 streamlit run app.py
-Usage
-Open the app in your browser.
+```
+---
 
-Use the sidebar to select Diabetes or Heart Disease Prediction.
+## Usage
+1. Open the app in your browser.
 
-Enter your health parameters or use the pre-filled sample values.
+2. Use the sidebar to select Diabetes or Heart Disease Prediction.
 
-Click the Test Result button to get the prediction.
+3. Enter your health parameters or use the pre-filled sample values.
 
-Project Structure
-Copy
-Edit
+4. Click the Test Result button to get the prediction.
+
+---
+
+## Project Structure
+
+```
 ML-Disease-Prediction/
 ├── app.py
 ├── Saved Models/
@@ -70,11 +75,16 @@ ML-Disease-Prediction/
 │   └── heart_model.sav
 ├── requirements.txt
 └── README.md
+```
 
-Deployment
-Deployed on Streamlit Cloud.
+--- 
+
+## Deployment
+Deployed on **Streamlit Cloud**.
 
 Any changes pushed to GitHub automatically update the live app.
+
+---
 
 ## 👤 Author
 **Jishan Khan**
